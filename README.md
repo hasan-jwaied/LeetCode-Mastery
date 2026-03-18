@@ -11,6 +11,6 @@ Each problem is categorized by its study track and contains four separate source
 
 | # | Problem | Topic | C | C++ | Python | Java |
 | :--- | :--- | :--- | :---: | :---: | :---: | :---: |
-| 1768 | [Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/) | Two Pointers | [✅ C](.\LeetCode-Mastery\LeetCode-75\1768. Merge Strings Alternately\merge.c) | [✅ C++](.\LeetCode-Mastery\LeetCode-75\1768. Merge Strings Alternately\merge.cpp) | [✅ Python](.\LeetCode-Mastery\LeetCode-75\1768. Merge Strings Alternately\merge.py) | [✅ Java](.\LeetCode-Mastery\LeetCode-75\1768. Merge Strings Alternately\merge.java) |
+| 1768 | [Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/) | Two Pointers | [✅ C](./LeetCode-75/1768-Merge-Strings-Alternately/merge.c) | [✅ C++](./LeetCode-75/1768-Merge-Strings-Alternately/merge.cpp) | [✅ Python](./LeetCode-75/1768-Merge-Strings-Alternately/merge.py) | [✅ Java](./LeetCode-75/1768-Merge-Strings-Alternately/merge.java) |
 
 > **Note:** `✅` indicates a completed, fully optimized solution. `⏳` indicates a work in progress.
