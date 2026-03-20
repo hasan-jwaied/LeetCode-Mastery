@@ -1,5 +1,6 @@
 int fib(int n) {
     if (n<=1) return n;
+    
     int prev1 = 1;
     int prev2 = 0;
     int temp = 0;
