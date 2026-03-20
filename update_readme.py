@@ -23,7 +23,7 @@ README_HEADER = """# My LeetCode Solutions
 """
 
 README_FOOTER = """
-> **Difficulty:** 🟢 Easy | 🟡 Medium | 🔴 Hard
+> **Difficulty:** 🟢 Easy | 🟡 Medium | 🔴 Hard\n
 > **Status:** `✅` Completed | `⏳` Work in progress
 """
 

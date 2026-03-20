@@ -9,4 +9,5 @@
 | 1768 | 🟢 [Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/) | LeetCode 75 | [✅ C](./LeetCode-75/1768-E-Merge-Strings-Alternately/merge.c) | [✅ C++](./LeetCode-75/1768-E-Merge-Strings-Alternately/merge.cpp) | [✅ Python](./LeetCode-75/1768-E-Merge-Strings-Alternately/merge.py) | [✅ Java](./LeetCode-75/1768-E-Merge-Strings-Alternately/merge.java) |
 
 > **Difficulty:** 🟢 Easy | 🟡 Medium | 🔴 Hard
+
 > **Status:** `✅` Completed | `⏳` Work in progress
