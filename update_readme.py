@@ -23,7 +23,8 @@ README_HEADER = """# My LeetCode Solutions
 """
 
 README_FOOTER = """
-> **Note:** `✅` indicates a completed, fully optimized solution. `⏳` indicates a work in progress.
+> **Difficulty:** 🟢 Easy | 🟡 Medium | 🔴 Hard
+> **Status:** `✅` Completed | `⏳` Work in progress
 """
 
 def generate_table():

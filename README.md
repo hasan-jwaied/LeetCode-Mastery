@@ -8,4 +8,5 @@
 | 0118 | 🟢 [Pascals Triangle](https://leetcode.com/problems/pascals-triangle/) | Dynamic Programming | [✅ C](./Dynamic-Programming/118-E-Pascals-Triangle/pascal-tri.c) | [✅ C++](./Dynamic-Programming/118-E-Pascals-Triangle/pascal-tri.cpp) | [✅ Python](./Dynamic-Programming/118-E-Pascals-Triangle/pascal-tri.py) | [✅ Java](./Dynamic-Programming/118-E-Pascals-Triangle/pascal-tri.java) |
 | 1768 | 🟢 [Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/) | LeetCode 75 | [✅ C](./LeetCode-75/1768-E-Merge-Strings-Alternately/merge.c) | [✅ C++](./LeetCode-75/1768-E-Merge-Strings-Alternately/merge.cpp) | [✅ Python](./LeetCode-75/1768-E-Merge-Strings-Alternately/merge.py) | [✅ Java](./LeetCode-75/1768-E-Merge-Strings-Alternately/merge.java) |
 
-> **Note:** `✅` indicates a completed, fully optimized solution. `⏳` indicates a work in progress.
+> **Difficulty:** 🟢 Easy | 🟡 Medium | 🔴 Hard
+> **Status:** `✅` Completed | `⏳` Work in progress
