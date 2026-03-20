@@ -16,6 +16,11 @@ DIFFICULTY_MAP = {
     "H": "🔴"
 }
 
+# --- ADD SPECIAL LINKS HERE ---
+URL_OVERRIDES = {
+    118: "https://leetcode.com/problems/pascals-triangle/description/?envType=problem-list-v2&envId=dynamic-programming"
+}
+
 README_HEADER = """# My LeetCode Solutions
 
 ## Progress Dashboard
@@ -47,7 +52,12 @@ def generate_table():
                 prob_name_raw = match.group(3)
                 
                 prob_name_clean = prob_name_raw.replace("-", " ")                
-                leetcode_url = f"https://leetcode.com/problems/{prob_name_raw.lower()}/"
+                
+                # Check for override first, otherwise use default format
+                if prob_num in URL_OVERRIDES:
+                    leetcode_url = URL_OVERRIDES[prob_num]
+                else:
+                    leetcode_url = f"https://leetcode.com/problems/{prob_name_raw.lower()}/"
                 
                 difficulty_icon = DIFFICULTY_MAP.get(diff_letter, "⚪")
                 
