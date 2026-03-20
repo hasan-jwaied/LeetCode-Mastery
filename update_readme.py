@@ -10,10 +10,10 @@ LANGUAGES = {
     "Java": { "ext": ".java", "icon": "✅ Java" }
 }
 
-DIFFICULTIES = {
-    53: "🟡 Medium",
-    118: "🟢 Easy",
-    1768: "🟢 Easy"
+DIFFICULTY_MAP = {
+    "E": "🟢",
+    "M": "🟡",
+    "H": "🔴"
 }
 
 README_HEADER = """# My LeetCode Solutions
@@ -37,19 +37,19 @@ def generate_table():
         if len(path_parts) >= 3:
             topic_folder = path_parts[1]
             problem_folder = path_parts[2]            
-            match = re.match(r"(\d+)-(.+)", problem_folder)
             
-            # --- ONLY ONE MATCH BLOCK ---
+            match = re.match(r"(\d+)-([EMH])-(.+)", problem_folder)
+            
             if match:
                 prob_num = int(match.group(1))
-                prob_name_raw = match.group(2)
+                diff_letter = match.group(2)
+                prob_name_raw = match.group(3)
+                
                 prob_name_clean = prob_name_raw.replace("-", " ")                
                 leetcode_url = f"https://leetcode.com/problems/{prob_name_raw.lower()}/"
                 
-                # Get the difficulty
-                difficulty = DIFFICULTIES.get(prob_num, "⚪ Unknown")
+                difficulty_icon = DIFFICULTY_MAP.get(diff_letter, "⚪")
                 
-                # Check for completed languages
                 lang_status = {}
                 for lang, info in LANGUAGES.items():
                     has_file = any(f.endswith(info["ext"]) for f in files)
@@ -61,15 +61,18 @@ def generate_table():
                     else:
                         lang_status[lang] = "⏳"
                 
-                # Append everything at once
                 problems.append({
                     "num": prob_num,
                     "name": prob_name_clean,
                     "url": leetcode_url,
-                    "difficulty": difficulty,
+                    "difficulty": difficulty_icon,
                     "topic": topic_folder.replace("-", " "),
                     "status": lang_status
                 })
+            else:
+                print(f"⚠️ SKIPPED: Folder '{problem_folder}' has an invalid name format.")
+                print("   USAGE: <ProblemNumber>-<Difficulty>-<Problem-Name>")
+                print("   Example: 0053-M-Maximum-Subarray (Strictly use E, M, or H)\n")
 
     problems.sort(key=lambda x: x["num"])
 
@@ -86,6 +89,7 @@ def generate_table():
     return table
 
 def overwrite_readme():
+    print("Scanning folders and generating table...\n")
     table_markdown = generate_table()
     full_content = README_HEADER + table_markdown + README_FOOTER
 
