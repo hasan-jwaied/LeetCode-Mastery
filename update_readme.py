@@ -76,12 +76,12 @@ def generate_table():
 
     problems.sort(key=lambda x: x["num"])
 
-    table = "| # | Problem | Difficulty | Topic | C | C++ | Python | Java |\n"
-    table += "| :--- | :--- | :---: | :--- | :---: | :---: | :---: | :---: |\n"
+    table = "| # | Problem | Topic | C | C++ | Python | Java |\n"
+    table += "| :--- | :--- | :--- | :---: | :---: | :---: | :---: |\n"
     
     for p in problems:
         num_str = f"{p['num']:04d}"
-        row = f"| {num_str} | [{p['name']}]({p['url']}) | {p['difficulty']} | {p['topic']} | "
+        row = f"| {num_str} | {p['difficulty']} [{p['name']}]({p['url']}) | {p['topic']} | "
         row += f"{p['status']['C']} | {p['status']['C++']} | "
         row += f"{p['status']['Python']} | {p['status']['Java']} |\n"
         table += row
