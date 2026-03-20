@@ -53,7 +53,6 @@ def generate_table():
                 
                 prob_name_clean = prob_name_raw.replace("-", " ")                
                 
-                # Check for override first, otherwise use default format
                 if prob_num in URL_OVERRIDES:
                     leetcode_url = URL_OVERRIDES[prob_num]
                 else:
