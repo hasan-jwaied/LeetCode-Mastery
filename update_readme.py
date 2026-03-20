@@ -2,8 +2,6 @@ import os
 import re
 
 README_PATH = "README.md"
-START_MARKER = "\n"
-END_MARKER = "\n"
 
 LANGUAGES = {
     "C": { "ext": ".c", "icon": "✅ C" },
@@ -11,6 +9,16 @@ LANGUAGES = {
     "Python": { "ext": ".py", "icon": "✅ Python" },
     "Java": { "ext": ".java", "icon": "✅ Java" }
 }
+
+README_HEADER = """# My LeetCode Solutions
+
+## Progress Dashboard
+
+"""
+
+README_FOOTER = """
+> **Note:** `✅` indicates a completed, fully optimized solution. `⏳` indicates a work in progress.
+"""
 
 def generate_table():
     problems = []
@@ -63,17 +71,15 @@ def generate_table():
 
     return table
 
-def update_readme(new_table):
-    with open(README_PATH, "r", encoding="utf-8") as file:
-        content = file.read()
+def overwrite_readme():
+    table_markdown = generate_table()
 
-    pattern = re.compile(f"({START_MARKER}).*?({END_MARKER})", re.DOTALL)
-    new_content = pattern.sub(rf"\1\n{new_table}\n\2", content)
+    full_content = README_HEADER + table_markdown + README_FOOTER
 
     with open(README_PATH, "w", encoding="utf-8") as file:
-        file.write(new_content)
-    print("✅ README.md has been successfully updated! ✅")
+        file.write(full_content)
+        
+    print("✅ README.md has been cleanly generated from scratch! ✅")
 
 if __name__ == "__main__":
-    table_markdown = generate_table()
-    update_readme(table_markdown)
+    overwrite_readme()
