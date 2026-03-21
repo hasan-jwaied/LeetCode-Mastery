@@ -1,0 +1,15 @@
+The Combinatorics SOLUTION
+
+Think about the robot's journey. 
+No matter what path it takes, to get from the top-left to the bottom-right of an mxn grid,
+it must make exactly:(m-1) moves Down and (n-1) moves Right.
+It cannot make more, and it cannot make fewer.
+This means every single valid path is exactly (m - 1) + (n - 1) total steps long.
+
+Let's call the total steps N = m + n - 2.
+Because every sequence of moves is just a specific arrangement of "Downs" and "Rights", the problem simply becomes:
+Out of N total steps, how many ways can we choose which steps will be "Down"?
+
+This is a classic combinations problem from mathematics: "N choose K".
+Where N = m + n - 2, and K = m - 1 (or n - 1).
+The mathematical formula for this is: N choose K -> N!/(K!*(N-K)!)
