@@ -95,17 +95,14 @@ def generate_table():
         row += f"{p['status']['C']} | {p['status']['C++']} | "
         row += f"{p['status']['Python']} | {p['status']['Java']} |\n"
         table += row
-
     return table
 
 def overwrite_readme():
-    print("Scanning folders and generating table...\n")
+    print("Scanning folders and generating table, it may take time...\n")
     table_markdown = generate_table()
     full_content = README_HEADER + table_markdown + README_FOOTER
-
     with open(README_PATH, "w", encoding="utf-8") as file:
         file.write(full_content)
-        
     print("✅ README.md has been cleanly generated from scratch! ✅")
 
 if __name__ == "__main__":
