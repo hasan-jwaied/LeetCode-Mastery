@@ -17,12 +17,10 @@ public:
 
         for (int i=1; i<m; i++)
         {
-            if (obstacleGrid[i][0] == 0)
-                obstacleGrid[i][0] = 1;
+            if (obstacleGrid[i][0] == 1)
+                obstacleGrid[i][0] = 0;
             else {
-                for (int k=i; k<m; k++)
-                    obstacleGrid[k][0] = 0;
-                break;
+                obstacleGrid[i][0] = obstacleGrid[i-1][0];
             }
         }
 
