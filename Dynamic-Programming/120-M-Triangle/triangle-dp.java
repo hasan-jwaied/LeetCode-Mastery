@@ -1,3 +1,4 @@
+import java.util.List;
 class Solution {
     public int minimumTotal(List<List<Integer>> triangle) {
         int m = triangle.size();
