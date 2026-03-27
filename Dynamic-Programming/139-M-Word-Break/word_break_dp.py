@@ -9,7 +9,7 @@ class Solution:
         
         for i in range(1, n+1):
             for j in range(i):
-                if OPT[j] == True and s[i:j] in my_set:
+                if OPT[j] == True and s[j:i] in my_set:
                     OPT[i] = True
                     break
         return OPT[n]
