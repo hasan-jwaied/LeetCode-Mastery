@@ -1,5 +1,5 @@
 int lengthOfLIS(int* nums, int numsSize) {
-    int *temp = calloc(numSize, sizeof(int));
+    int *temp = calloc(numsSize, sizeof(int));
     if (!temp) return -909; // failed to allocate memory
     int result = 1;
 
@@ -8,12 +8,12 @@ int lengthOfLIS(int* nums, int numsSize) {
         temp[i] = 1;
     }
 
-    for (int i=numSize-2; i>=0; i--) {
-        for (int j=i+1; j<numSize; j++) {
+    for (int i=numsSize-2; i>=0; i--) {
+        for (int j=i+1; j<numsSize; j++) {
             if (nums[i] < nums[j]) {
-                OPT[i] = OPT[i]<1+OPT[j]?1+OPT[j]:OPT[i];
-                if (result < OPT[i]) {
-                    result = OPT[i];
+                temp[i] = temp[i]<1+temp[j]?1+temp[j]:temp[i];
+                if (result < temp[i]) {
+                    result = temp[i];
                 }
             }
         }
