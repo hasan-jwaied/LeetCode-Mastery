@@ -7,7 +7,7 @@ public:
         sort(pairs.begin(), pairs.end());
         vector<int> OPT(n, 1);
 
-        int result = 0;
+        int result = OPT[n-1];
         for (int i=n-2; i>=0; i--) {
             for (int j=1+i; j<n; j++) {
                 if (pairs[i][1] < pairs[j][0]) {
