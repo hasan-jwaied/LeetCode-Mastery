@@ -33,6 +33,7 @@
 | 1143 | 🟡 [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) | Dynamic Programming | [✅ C](./Dynamic-Programming/1143-M-Longest-Common-Subsequence/LCS.c) | [✅ C++](./Dynamic-Programming/1143-M-Longest-Common-Subsequence/LCS.cpp) | [✅ Python](./Dynamic-Programming/1143-M-Longest-Common-Subsequence/LCS.py) | ⏳ |
 | 1218 | 🟡 [Longest Arithmetic Subsequence of Given Difference](https://leetcode.com/problems/longest-arithmetic-subsequence-of-given-difference/) | Dynamic Programming | ⏳ | [✅ C++](./Dynamic-Programming/1218-M-Longest-Arithmetic-Subsequence-of-Given-Difference/longest_arithmetic_subseq.cpp) | [✅ Python](./Dynamic-Programming/1218-M-Longest-Arithmetic-Subsequence-of-Given-Difference/longest_arithmetic_subseq.py) | ⏳ |
 | 1768 | 🟢 [Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/) | LeetCode 75 | [✅ C](./LeetCode-75/1768-E-Merge-Strings-Alternately/merge.c) | [✅ C++](./LeetCode-75/1768-E-Merge-Strings-Alternately/merge.cpp) | [✅ Python](./LeetCode-75/1768-E-Merge-Strings-Alternately/merge.py) | [✅ Java](./LeetCode-75/1768-E-Merge-Strings-Alternately/merge.java) |
+| 1964 | 🔴 [Find the Longest Valid Obstacle Course at Each Position](https://leetcode.com/problems/find-the-longest-valid-obstacle-course-at-each-position/) | Dynamic Programming | ⏳ | [✅ C++](./Dynamic-Programming/1964-H-Find-the-Longest-Valid-Obstacle-Course-at-Each-Position/find_longest_valid_obstacle_course.cpp) | ⏳ | ⏳ |
 
 > **Difficulty:** 🟢 Easy | 🟡 Medium | 🔴 Hard
 
