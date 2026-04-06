@@ -36,6 +36,7 @@
 | 1312 | 🔴 [Minimum Insertion Steps to Make a String Palindrome](https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/) | Dynamic Programming | ⏳ | [✅ C++](./Dynamic-Programming/1312-H-Minimum-Insertion-Steps-to-Make-a-String-Palindrome/minimum_insertions_to_make_str_palindrome.cpp) | [✅ Python](./Dynamic-Programming/1312-H-Minimum-Insertion-Steps-to-Make-a-String-Palindrome/minimum_insertion_to_make_str_palindrome.py) | ⏳ |
 | 1768 | 🟢 [Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/) | LeetCode 75 | [✅ C](./LeetCode-75/1768-E-Merge-Strings-Alternately/merge.c) | [✅ C++](./LeetCode-75/1768-E-Merge-Strings-Alternately/merge.cpp) | [✅ Python](./LeetCode-75/1768-E-Merge-Strings-Alternately/merge.py) | [✅ Java](./LeetCode-75/1768-E-Merge-Strings-Alternately/merge.java) |
 | 1964 | 🔴 [Find the Longest Valid Obstacle Course at Each Position](https://leetcode.com/problems/find-the-longest-valid-obstacle-course-at-each-position/) | Dynamic Programming | ⏳ | [✅ C++](./Dynamic-Programming/1964-H-Find-the-Longest-Valid-Obstacle-Course-at-Each-Position/find_longest_valid_obstacle_course.cpp) | [✅ Python](./Dynamic-Programming/1964-H-Find-the-Longest-Valid-Obstacle-Course-at-Each-Position/find_longest_valid_obstacle_course.py) | ⏳ |
+| 2751 | 🔴 [Robot Collisions](https://leetcode.com/problems/robot-collisions/) | Daily task | ⏳ | ⏳ | [✅ Python](./Daily%20task/2751-H-Robot-Collisions/robot_collisions.py) | ⏳ |
 
 > **Difficulty:** 🟢 Easy | 🟡 Medium | 🔴 Hard
 
