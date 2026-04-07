@@ -10,7 +10,7 @@ class Robot:
         self.position = (self.position + num) % loop_len
         flag = 1
 
-    def getPos(self) -> List[int]:
+    def getPos(self) -> list[int]:
         result = [0, 0]
         if self.position >= 0 and self.position <= self.width - 1:
             result[0] = self.position
