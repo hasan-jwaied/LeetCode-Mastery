@@ -43,7 +43,7 @@
 | 1964 | 🔴 [Find the Longest Valid Obstacle Course at Each Position](https://leetcode.com/problems/find-the-longest-valid-obstacle-course-at-each-position/) | Dynamic Programming | ⏳ | [✅ C++](./Dynamic-Programming/1964-H-Find-the-Longest-Valid-Obstacle-Course-at-Each-Position/find_longest_valid_obstacle_course.cpp) | [✅ Python](./Dynamic-Programming/1964-H-Find-the-Longest-Valid-Obstacle-Course-at-Each-Position/find_longest_valid_obstacle_course.py) | ⏳ |
 | 2069 | 🟡 [Walking Robot Simulation II](https://leetcode.com/problems/walking-robot-simulation-ii/) | Daily task | ⏳ | [✅ C++](./Daily%20task/2069-M-Walking-Robot-Simulation-II/walking_robot_simu_ii.cpp) | [✅ Python](./Daily%20task/2069-M-Walking-Robot-Simulation-II/walking_robot_simu_ii.py) | ⏳ |
 | 2751 | 🔴 [Robot Collisions](https://leetcode.com/problems/robot-collisions/) | Daily task | ⏳ | ⏳ | [✅ Python](./Daily%20task/2751-H-Robot-Collisions/robot_collisions.py) | ⏳ |
-| 3653 | 🟡 [XOR After Range Multiplication Queries I](https://leetcode.com/problems/xor-after-range-multiplication-queries-i/) | Daily task | ⏳ | ⏳ | [✅ Python](./Daily%20task/3653-M-XOR-After-Range-Multiplication-Queries-I/xor_after_range_mult.py) | ⏳ |
+| 3653 | 🟡 [XOR After Range Multiplication Queries I](https://leetcode.com/problems/xor-after-range-multiplication-queries-i/) | Daily task | ⏳ | [✅ C++](./Daily%20task/3653-M-XOR-After-Range-Multiplication-Queries-I/xor_after_range_mult.cpp) | [✅ Python](./Daily%20task/3653-M-XOR-After-Range-Multiplication-Queries-I/xor_after_range_mult.py) | ⏳ |
 
 > **Difficulty:** 🟢 Easy | 🟡 Medium | 🔴 Hard
 
