@@ -44,6 +44,7 @@
 | 2069 | 🟡 [Walking Robot Simulation II](https://leetcode.com/problems/walking-robot-simulation-ii/) | Daily task | ⏳ | [✅ C++](./Daily%20task/2069-M-Walking-Robot-Simulation-II/walking_robot_simu_ii.cpp) | [✅ Python](./Daily%20task/2069-M-Walking-Robot-Simulation-II/walking_robot_simu_ii.py) | ⏳ |
 | 2751 | 🔴 [Robot Collisions](https://leetcode.com/problems/robot-collisions/) | Daily task | ⏳ | ⏳ | [✅ Python](./Daily%20task/2751-H-Robot-Collisions/robot_collisions.py) | ⏳ |
 | 3653 | 🟡 [XOR After Range Multiplication Queries I](https://leetcode.com/problems/xor-after-range-multiplication-queries-i/) | Daily task | ⏳ | [✅ C++](./Daily%20task/3653-M-XOR-After-Range-Multiplication-Queries-I/xor_after_range_mult.cpp) | [✅ Python](./Daily%20task/3653-M-XOR-After-Range-Multiplication-Queries-I/xor_after_range_mult.py) | ⏳ |
+| 3655 | 🔴 [XOR After Range Multiplication Queries II](https://leetcode.com/problems/xor-after-range-multiplication-queries-ii/) | Daily task | ⏳ | ⏳ | [✅ Python](./Daily%20task/3655-H-XOR-After-Range-Multiplication-Queries-II/Xor_after_range_mult_HHH.py) | ⏳ |
 
 > **Difficulty:** 🟢 Easy | 🟡 Medium | 🔴 Hard
 
