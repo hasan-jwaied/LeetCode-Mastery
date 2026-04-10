@@ -5,7 +5,8 @@
 class Solution {
 public:
     int scheduleCourse(vector<vector<int>>& courses) {
-        sort(courses.begin(), courses.end(), [](const vector<int>&a, const vector<int>&b) {return a<b;});
+        sort(courses.begin(), courses.end(),
+        [](const vector<int>&a, const vector<int>&b) {return a[1]<b[1];});
         priority_queue<int> maxheap;
 
         int total_time = 0;
@@ -17,7 +18,7 @@ public:
             total_time += duration;
 
             if (total_time > lastDay) {
-                total -= maxheap.top();
+                total_time -= maxheap.top();
                 maxheap.pop();
             }
             
