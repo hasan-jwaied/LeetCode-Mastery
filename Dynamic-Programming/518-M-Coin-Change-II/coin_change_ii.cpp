@@ -11,7 +11,7 @@ public:
 
         for (int i=1; i<m+1; i++) {
             for (int j=1; j<n+1; j++) {
-                int cj = coins[j];
+                int cj = coins[j-1];
                 if (cj > i) {
                     OPT[i][j] = OPT[i][j-1];
                 } else {
