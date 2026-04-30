@@ -57,6 +57,7 @@
 | 3653 | 🟡 [XOR After Range Multiplication Queries I](https://leetcode.com/problems/xor-after-range-multiplication-queries-i/) | Daily task | ⏳ | [✅ C++](./Daily%20task/3653-M-XOR-After-Range-Multiplication-Queries-I/xor_after_range_mult.cpp) | [✅ Python](./Daily%20task/3653-M-XOR-After-Range-Multiplication-Queries-I/xor_after_range_mult.py) | ⏳ |
 | 3655 | 🔴 [XOR After Range Multiplication Queries II](https://leetcode.com/problems/xor-after-range-multiplication-queries-ii/) | Daily task | ⏳ | ⏳ | [✅ Python](./Daily%20task/3655-H-XOR-After-Range-Multiplication-Queries-II/Xor_after_range_mult_HHH.py) | ⏳ |
 | 3740 | 🟢 [Minimum Distance Between Three Equal Elements I](https://leetcode.com/problems/minimum-distance-between-three-equal elements-i/) | Daily task | ⏳ | [✅ C++](./Daily%20task/3740-E-Minimum-Distance-Between-Three-Equal%20Elements-I/min_dist_between_3_equal_elem.cpp) | [✅ Python](./Daily%20task/3740-E-Minimum-Distance-Between-Three-Equal%20Elements-I/min_dist_between_3_equal_nums.py) | ⏳ |
+| 3742 | 🟡 [Maximum Path Score in a Grid](https://leetcode.com/problems/maximum-path-score-in-a-grid/) | Daily task | ⏳ | ⏳ | [✅ Python](./Daily%20task/3742-M-Maximum-Path-Score-in-a-Grid/max_path_score_in_a_grid.py) | ⏳ |
 
 > **Difficulty:** 🟢 Easy | 🟡 Medium | 🔴 Hard
 
